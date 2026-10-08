@@ -15,7 +15,7 @@ function BrowseItems() {
   
   async function getitems(){
     try{
-      let api="http://192.168.1.35:5000/items"
+      let api="http://192.168.1.39:5000/items"
     let res=await axios.get(api)
     setitems(res.data)
     setloading(false)

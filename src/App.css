@@ -234,3 +234,43 @@ a{
   border:2px solid #990011;
 
 }
+
+.item-frame{
+  padding: 10px;
+  border:1px solid  #990011;
+  height: 300px;
+}
+.item-right{
+  padding: 10px;
+  background-color: white;
+  border-radius: 9px;
+}
+
+.deposit{
+  background-color: #FCF6F5;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 9px;
+}
+.deposit1{
+  background-color: #FCF6F5;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 9px;
+  gap: 10px;
+}
+
+.btn-list3{
+  padding: 1px 11px ;
+  border: 2px solid #990011;
+  background-color: #FCF6F5;
+  color: #990011;
+  border-radius: 4px;
+}
+.form-date{
+  border:2px solid #990011;
+  margin: 2px;
+  padding: 2px;
+  color: #990011;
+  border-radius: 3px;
+}

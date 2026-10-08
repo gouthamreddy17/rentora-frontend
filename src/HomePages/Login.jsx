@@ -22,7 +22,7 @@ function Login() {
       password:password
     }
     try{
-      let api='http://192.168.1.35:5000/login'
+      let api='http://192.168.1.39:5000/login'
       let res=await axios.post(api,obj)
       console.log(res.data)
       setmessage(res.data.message)
