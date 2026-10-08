@@ -190,6 +190,31 @@ a{
   }
   
 }
+.loading-page1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:white;
+}
+.spin1{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #990011;
+  border-top: 2px solid white;
+  animation: spin 0.9s linear infinite;
+
+}
+@keyframes spin1 {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+  
+}
+
 
 .cat-section{
   background-color: white;

@@ -3,6 +3,7 @@ import Navbar from "./Navbar"
 import axios from "axios"
 import { useNavigate } from "react-router-dom"
 import Loading from "./Loading"
+import { toast } from "react-toastify"
 
 
 function Login() {
@@ -26,6 +27,7 @@ function Login() {
       let res=await axios.post(api,obj)
       console.log(res.data)
       setmessage(res.data.message)
+      toast.success("Login sucessfull")
       localStorage.setItem('user',JSON.stringify(res.data.user))
       let user=JSON.parse(localStorage.getItem('user'))
       console.log(user)

@@ -7,13 +7,14 @@ import Userdashboard from "./userPages/Userdashboard";
 import BrowseItems from "./userPages/BrowseItems";
 import Notfound from "./HomePages/Notfound";
 import ItemDetails from "./components/ItemDetails";
+import { ToastContainer } from "react-toastify";
 
 
 function App() {
   return (
     <div>
-     
 
+      <ToastContainer position="top-right" autoClose={5000} closeOnClick pauseOnHover  />
       <Routes>
         <Route  path="/" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
